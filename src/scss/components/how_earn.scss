@@ -1,0 +1,43 @@
+
+
+
+.how-earn {
+    background: url('../../../public/images/earn/bg2.png') top center / 100% no-repeat;
+    padding: 0px 259px 0px 221px;
+    &__title {
+    font-family: 'Industry';
+    margin: 20px 0px 65px 0px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    text-shadow: 0px 0px 8px rgba(188, 146, 64, 0.76);
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__gallery {
+        flex: 1  0 50%;
+        background: url('../../../public/images/earn/bg3.png') top center / 100% no-repeat;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19.48px;
+        margin-right: 87px;
+    }
+
+    &__info {
+        flex: 1 0 50%;
+        max-width: 590px;
+        margin-top: 110px;
+        font-family: 'KoHo';
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .methods-list {
+      padding-left: 40px;
+    }
+}

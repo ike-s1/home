@@ -1,0 +1,57 @@
+.why {
+    background: url('../../../public/images/why/bg.png') center center / cover no-repeat;
+    &__container {
+        max-width: 1500px;
+        padding: 0 0px 63px 0px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    &__title  {
+        margin:  60px 0px 107px;
+        font-family: 'Industry';
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72px;
+        text-align: center;
+        text-shadow: 0px 0px 8px rgba(188, 146, 64, 0.76);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lable {
+        width: 307px;
+        height: 5px;
+        background-color: #695BBF;
+        margin-right: 24.14px;
+    }
+
+    &__content-right {
+        align-self: flex-end;
+
+        .why__reason {
+        flex-direction: row-reverse;
+        .lable {
+            margin: 0 0 0 24.14px;
+        }
+        }
+    }
+
+
+    &__reason {
+    font-family: 'KoHo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #DEE2EF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    margin-bottom: 47px;
+    }
+
+}

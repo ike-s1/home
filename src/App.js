@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Battlemech, Header, HowEarn, Little, Preview, Roadmap, Video, Weapons, Why } from './components';
+import Pilots from './components/pilots/Pilots';
+
+import './scss/app.scss';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="wrapper">
+      <Header/>
+      <Preview/>
+      <Why/>
+      <Video/>
+      <HowEarn/>
+      <Little/>
+      <Battlemech/>
+      <Pilots/>
+      <Weapons/>
+      <Roadmap/>
+      </div>
     </div>
   );
 }
